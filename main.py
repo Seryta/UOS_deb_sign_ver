@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # @author Saryta
-# @last-modified 2021-02-25T10:11:55.068Z+08:00
+# @last-modified 2021-02-25T10:13:07.875Z+08:00
 
 import sys, getopt, os
 from pathlib import Path
@@ -40,5 +40,3 @@ if __name__ == "__main__":
         os.popen(command)
     else:
         main()
-        print('test')
-        print('test')
